@@ -35,7 +35,7 @@ published: true
 
 最初のはこれ↓アコーディオンのキーボード作るの楽しそう。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b7bbEzN2frU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=b7bbEzN2frU
 
 
 # 選定
