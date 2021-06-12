@@ -171,12 +171,17 @@ Macの日本語キーボードは、日本語切り替えを、英数・かな�
 作ったあとに、気づいたところをいくつか改善しました。改善大事。
 
 ## ずれてた
-微妙にキーがういてたので、つけ直しました。はんだするとき、もうちょい気をつけてやらなあかんかったなー。
+微妙にキーが浮いてたり傾いてたりしたので、つけ直しました。はんだするとき、もうちょい気をつけてやらなあかんかったなー。
 ![](https://storage.googleapis.com/zenn-user-upload/20971900c5b6aa3af2821b4a.png)
 
 ## キーキャップの向き
 キーキャップを逆さに入れてみたら、押しやすいかなと思って試しましたが、もとに戻しました。なんか指が滑り落ちる感覚があったので。
 ![](https://storage.googleapis.com/zenn-user-upload/ad6b5c013df50ba67c7a2913.png)
+
+## 軸の交換
+左手小指が疲れる気がしたので、キャプスロックの位置（コントロールとして使ってる）の軸を`Gateron Clear（軽めのリニア35g）`に変えてみました。Emacsユーザーの試練すね。改善するかなぁ。慣れるかなぁ。
+
+![](https://storage.googleapis.com/zenn-user-upload/9e43106aa120adb5ceda5bb1.png)
 
 ## スタビライザーのカチャカチャ音対策
 スタビライザーのついてる幅広のキーがカチャカチャいうので、金属とプラスチックの間にワセリンを塗ってみました。
@@ -190,6 +195,10 @@ Macの日本語キーボードは、日本語切り替えを、英数・かな�
 多少、音と押し心地が改善しました。満足。多少リスクあると思うので、やるなら自己責任。
 
 [Amazon | Vaseline(ヴァセリン) オリジナル ピュアスキンジェリー 全身の保湿ケア用スキンバーム クリーム 200g | Vaseline(ヴァセリン) | ボディクリーム 通販](https://www.amazon.co.jp/%E3%83%B4%E3%82%A1%E3%82%BB%E3%83%AA%E3%83%B3-Vaseline-%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%83%94%E3%83%A5%E3%82%A2%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B8%E3%82%A7%E3%83%AA%E3%83%BC-200g/dp/B003ZX6SR8/ref=sr_1_2_sspa?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=%E3%83%AF%E3%82%BB%E3%83%AA%E3%83%B3&qid=1623430135&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFOVDlJM0laUEhaUjAmZW5jcnlwdGVkSWQ9QTAxOTQ3NTlQMjVNNTg4QkwzOU4mZW5jcnlwdGVkQWRJZD1BM0RVUTc3TlA4M01YWiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
+
+
+ちなみに、つけ外しを頻繁にしてたら、軸本体が外れてバネがでてきちゃいました。もとに戻ったけど、気をつけよ。
+![](https://storage.googleapis.com/zenn-user-upload/fe6e9a226e95b338da41e615.png)
 
 ## 配線
 MacBookの左右におくには、右左のキーボードを橋渡しするケーブルがみじかかったので、これを買いました。コネクタがL字なのがいい感じです。
@@ -222,7 +231,7 @@ usb microのケーブルもコネクタがL字のを買いました。ちょい�
 USキーボードであることによる記号キーがまだなれてません。。。
 そんなに使う頻度高くないからですかね。がっつりコーディングする時期にならないとなれないかもです。
 茶軸であることは、まだ体が慣れてない気がします。特に左手の小指が疲れてる気がします。
-どの軸が良かったのかは謎ですが、キャプスロックの位置（コントロールとして使ってる）の軸くらいかえても良いかもです。変えよかな。
+どの軸が良かったのかは謎ですが、そのうち、部分的に変更するかもです。
 
 # おわりに
 ここらの課題が残ってる気がします。
