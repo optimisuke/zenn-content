@@ -206,6 +206,10 @@ MacBookの左右におくには、右左のキーボードを橋渡しするケ�
 
 usb microのケーブルもコネクタがL字のを買いました。ちょいちょいプラスでお金かかる。
 [Amazon.co.jp： オーディオファン 両端子L字microUSBケーブル 短い 約12cm L字 方向1 ブラック AFSSLCBL: 産業・研究開発用品](https://www.amazon.co.jp/dp/B091GDPHP1/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B091GDPHP1p13NParams&smid=A2I7D1HC7GTDYI&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExUlFJRjcyQlBUSkdUJmVuY3J5cHRlZElkPUEwOTIyMzg2RTZPOEZaWjRHUDU5JmVuY3J5cHRlZEFkSWQ9QTFIQjY4Mk8zV0c5REwmd2lkZ2V0TmFtZT1zcF9kZXRhaWwyJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
+## キー配置の再検討
+上記配置で、そこそこ満足してたんですが、右手でスペースキー押したほうがタイピングはやいんじゃねって話になったので、試してみることにしました。これが結構辛い。スペースキー押すのに左手酷使しすぎてた。ついでに、左手のコマンドとAltキーの位置をずらしました。さらにコマンドキーを押しやすくなっていい感じです。こっちも、慣れるのに少し時間がかかりそう。
+
+![](https://storage.googleapis.com/zenn-user-upload/cfaa7cf20bc7be361870a4ae.png)
 
 ## パームレスト
 どうしようか迷ったんですが、一周まわって机につけるためのアームレストを買いました。安いやつ。
@@ -214,6 +218,25 @@ usb microのケーブルもコネクタがL字のを買いました。ちょい�
 ![](https://storage.googleapis.com/zenn-user-upload/e1ee932144f95ceb609a7f54.png)
 
 [Amazon | （アイラブコス）iLoveCos JP デスク用アームレスト ブラック | iLoveCos JP | リストレスト 通販](https://www.amazon.co.jp/gp/product/B01E6W9XZ0/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
+
+## 尊師スタイル
+分離にすることで、ノートPCのキーボードの上に外付けキーボードを置くいわゆる尊師スタイルしなくていい感じやと思ってたんですが、ソファでパソコン使いたいときに、尊師スタイルしたいなとなりました。
+
+普通にキーボードの上においたら、干渉しちゃって使えなかったんですが、裏に貼ってる滑り止めをぎりぎりまでずらしたら、干渉せずに使えました。良かった。タッチバーやからかも。タッチバー、まさかのここで活躍するとは。
+
+![](https://storage.googleapis.com/zenn-user-upload/0266bde786fc55845c2b1d16.png)
+
+うえにおくと、パームレストも欲しくなります。
+とりあえずは、3Dプリンタで適当に印刷することにしました。
+
+![](https://storage.googleapis.com/zenn-user-upload/1d527e59c211d1dbceac4c8a.png)
+
+# LED配線とキー配線の干渉対策
+しばらく使ってたら、前触れ無く、zxcvbが、1qaz2wsx3edc4rfv5tgbになるようになってしまいました。
+ledがついてるスイッチだったのと、組み立ての説明で気をつけてねって書かれてるのを思い出したので、LEDと基板の間にマスキングテープを貼りました。
+すぐ直ってよかった。ただ、ケースあけるのめんどいなぁと思いました。ネジがおおい。
+![](https://storage.googleapis.com/zenn-user-upload/e2de131d07dfa0bdcfea6850.png)
+![](https://storage.googleapis.com/zenn-user-upload/bfc1a66390d4f121ecac0a2c.png)
 
 # 慣れまでの関門
 慣れるまでの関門はこんな感じかなと思います。
