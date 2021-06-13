@@ -207,7 +207,7 @@ MacBookの左右におくには、右左のキーボードを橋渡しするケ�
 usb microのケーブルもコネクタがL字のを買いました。ちょいちょいプラスでお金かかる。
 [Amazon.co.jp： オーディオファン 両端子L字microUSBケーブル 短い 約12cm L字 方向1 ブラック AFSSLCBL: 産業・研究開発用品](https://www.amazon.co.jp/dp/B091GDPHP1/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B091GDPHP1p13NParams&smid=A2I7D1HC7GTDYI&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExUlFJRjcyQlBUSkdUJmVuY3J5cHRlZElkPUEwOTIyMzg2RTZPOEZaWjRHUDU5JmVuY3J5cHRlZEFkSWQ9QTFIQjY4Mk8zV0c5REwmd2lkZ2V0TmFtZT1zcF9kZXRhaWwyJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
 ## キー配置の再検討
-上記配置で、そこそこ満足してたんですが、右手でスペースキー押したほうがタイピングはやいんじゃねって話になったので、試してみることにしました。これが結構辛い。スペースキー押すのに左手酷使しすぎてた。ついでに、左手のコマンドとAltキーの位置をずらしました。さらにコマンドキーを押しやすくなっていい感じです。こっちも、慣れるのに少し時間がかかりそう。
+上記配置で、そこそこ満足してたんですが、右手でスペースキー押したほうがタイピングはやいんじゃねって話になったので、試してみることにしました。これが結構辛い。スペースキー押すのに左手酷使しすぎてた。ついでに、左手のコマンドとAltキーの位置をずらしました。コマンドキーを押すときの親指の移動量が減って押しやすくなっていい感じです。ただこっちも、慣れるのに少し時間がかかりそう。
 
 ![](https://storage.googleapis.com/zenn-user-upload/cfaa7cf20bc7be361870a4ae.png)
 
