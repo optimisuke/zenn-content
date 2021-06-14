@@ -53,6 +53,7 @@ HHKBとかNiZも良いけど、高いし、自分にあうか不安だし、調�
 [Choco60 – 遊舎工房](https://shop.yushakobo.jp/products/choco60/?variant=37665645101217)
 [Corne Cherry V3 – 遊舎工房](https://shop.yushakobo.jp/products/corne-cherry-v3)
 [JISplit89 – 遊舎工房](https://shop.yushakobo.jp/products/jisplit89)
+[【委託】sphh jp – 遊舎工房](https://shop.yushakobo.jp/products/consign_sphh-jp/?variant=37665534345377)
 
 自分にとってのポイントは、ここらかなと思います。
 
@@ -202,10 +203,17 @@ Macの日本語キーボードは、日本語切り替えを、英数・かな�
 
 ## 配線
 MacBookの左右におくには、右左のキーボードを橋渡しするケーブルがみじかかったので、これを買いました。コネクタがL字なのがいい感じです。
+
+![](https://storage.googleapis.com/zenn-user-upload/409da6ee509b376b6ef3307a.png)
+
 [Amazon | 【便利な変換ケーブル＃63 by WYVERN AUDIO 】4極 L型3.5mm ⇔ 4極 L型3.5mm オス⇔オス ステレオミニプラグ カールコード ステレオ オーディオケーブル （40cm~1.2m） | WYVERN AUDIO | ステレオケーブル](https://www.amazon.co.jp/gp/product/B01MXCKHAM/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1)
 
 usb microのケーブルもコネクタがL字のを買いました。ちょいちょいプラスでお金かかる。
+
+![](https://storage.googleapis.com/zenn-user-upload/0d79b3aa7b9f6c2ab1c17a3d.jpg)
+
 [Amazon.co.jp： オーディオファン 両端子L字microUSBケーブル 短い 約12cm L字 方向1 ブラック AFSSLCBL: 産業・研究開発用品](https://www.amazon.co.jp/dp/B091GDPHP1/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B091GDPHP1p13NParams&smid=A2I7D1HC7GTDYI&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExUlFJRjcyQlBUSkdUJmVuY3J5cHRlZElkPUEwOTIyMzg2RTZPOEZaWjRHUDU5JmVuY3J5cHRlZEFkSWQ9QTFIQjY4Mk8zV0c5REwmd2lkZ2V0TmFtZT1zcF9kZXRhaWwyJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
+
 ## キー配置の再検討
 上記配置で、そこそこ満足してたんですが、右手でスペースキー押したほうがタイピングはやいんじゃねって話になったので、試してみることにしました。これが結構辛い。スペースキー押すのに左手酷使しすぎてた。ついでに、左手のコマンドとAltキーの位置をずらしました。コマンドキーを押すときの親指の移動量が減って押しやすくなっていい感じです。ただこっちも、慣れるのに少し時間がかかりそう。
 
@@ -226,10 +234,14 @@ usb microのケーブルもコネクタがL字のを買いました。ちょい�
 
 ![](https://storage.googleapis.com/zenn-user-upload/0266bde786fc55845c2b1d16.png)
 
-うえにおくと、パームレストも欲しくなります。
+上におくと、パームレストも欲しくなります。
 とりあえずは、3Dプリンタで適当に印刷することにしました。
 
 ![](https://storage.googleapis.com/zenn-user-upload/1d527e59c211d1dbceac4c8a.png)
+
+こんな感じになりました。結構いい感じ。
+![](https://storage.googleapis.com/zenn-user-upload/b6e4dd6bc13d15a2dcb23741.jpeg)
+![](https://storage.googleapis.com/zenn-user-upload/ed70b76190a11523f5f41f20.jpg)
 
 # LED配線とキー配線の干渉対策
 しばらく使ってたら、前触れ無く、zxcvbが、1qaz2wsx3edc4rfv5tgbになるようになってしまいました。
