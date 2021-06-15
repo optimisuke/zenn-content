@@ -243,12 +243,33 @@ usb microのケーブルもコネクタがL字のを買いました。ちょい�
 ![](https://storage.googleapis.com/zenn-user-upload/b6e4dd6bc13d15a2dcb23741.jpeg)
 ![](https://storage.googleapis.com/zenn-user-upload/ed70b76190a11523f5f41f20.jpg)
 
-# LED配線とキー配線の干渉対策
-しばらく使ってたら、前触れ無く、zxcvbが、1qaz2wsx3edc4rfv5tgbになるようになってしまいました。
-ledがついてるスイッチだったのと、組み立ての説明で気をつけてねって書かれてるのを思い出したので、LEDと基板の間にマスキングテープを貼りました。
-すぐ直ってよかった。ただ、ケースあけるのめんどいなぁと思いました。ネジがおおい。
+裏側に3Mのすべりどめを貼ってます。3Mさまさま。
+![](https://storage.googleapis.com/zenn-user-upload/dc8bb58701bb41e6311219bf.png)
+
+## LED配線とキー配線の干渉対策
+しばらく使ってたら、前触れ無く、zxcvbが、1qaz2wsx3edc4rfv5tgbになるようになってしまいました。その列すべてのキーが入力されてる感じ。ダイオードが機能してない感じですかねー。
+裏にledがついてるスイッチだったのと、組み立ての説明で誤動作するかもだから、はみ出た配線切ったりして対応してねって書かれてるのを思い出したので、そこを確認しました。
+LEDと基板の間にマスキングテープを貼ったら、誤動作しなくなりました。すぐ直ってよかった。
+ただ、修正するときケースあけるのめんどいなぁと思いました。ネジがおおい。
 ![](https://storage.googleapis.com/zenn-user-upload/e2de131d07dfa0bdcfea6850.png)
 ![](https://storage.googleapis.com/zenn-user-upload/bfc1a66390d4f121ecac0a2c.png)
+
+## キーキャップの印刷
+3Dプリンタでキーキャップを印刷してみました。
+
+Thingiverseで探して、これを印刷してみました。
+[Lego-Compatible Cherry MX Keycap by merberich - Thingiverse](https://www.thingiverse.com/thing:4823151)
+
+3万円くらいの安い積層型のプリンタなんで、精度は悪いと思うんですが、普通に押してる分には、問題なく使えそうです。
+Emacsキーバインドで疲れた左手小指をいたわるために、左手小指の付け根でコントロールを押すことがあるので、LEGOで高さ調節できるのいい感じです。
+3Dプリンタだと積層面が気になるので、LEGOを乗せることでガタガタが隠れて見た目もいい感じになってます。
+もっとポップな色のフィラメント買って、作り直そかな。
+
+![](https://storage.googleapis.com/zenn-user-upload/5c3306553d308c363683af93.jpg)
+![](https://storage.googleapis.com/zenn-user-upload/5cd9570d2e494481f67e7584.jpg)
+
+Shiftキーが押しにくかったので、つけるlegoブロックを変えてみました。より快適に。legoの拡張性半端ない。
+![](https://storage.googleapis.com/zenn-user-upload/5a9fb028ea805ab7687fb3aa.png)
 
 # 慣れまでの関門
 慣れるまでの関門はこんな感じかなと思います。
