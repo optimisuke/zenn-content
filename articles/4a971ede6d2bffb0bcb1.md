@@ -285,6 +285,20 @@ Shiftキーが押しにくかったので、つけるlegoブロックを変え�
 
 ![](https://storage.googleapis.com/zenn-user-upload/6d64856a102bdbf2f11d24d3.png)
 
+## ケース
+使いだして、片付けるときとか、会社に持ってく時、かばんにドーンって入れてましたが、やっぱケースほしいよなぁとなってきました。
+なので、3Dプリンタでつくりました。こんな感じ。
+![](https://storage.googleapis.com/zenn-user-upload/a801392eb223237fd215f757.png)
+![](https://storage.googleapis.com/zenn-user-upload/681b54d7552a464e78960159.png)
+
+見た目もそこそこで、気軽に使えていい感じです。
+
+こんな感じで設計して、印刷しました。設計スキルが低めなので、コネクタとの干渉を避けつつシンプルな形にしました。ファイルケースみたいな感じ。後ろに持つための穴をつけようと思ったけど、サポート材がうまくつけられなさそうだったので、やめました。
+TinkercadをiPadで使うとAR的なことできます。楽しい。
+![](https://storage.googleapis.com/zenn-user-upload/b609249c456edb90d262ef5b.png)
+![](https://storage.googleapis.com/zenn-user-upload/e61a58b25d980ff97268fe6f.png)
+![](https://storage.googleapis.com/zenn-user-upload/f7c957d8880a2cc2923c3432.png)
+
 # 慣れまでの関門
 慣れるまでの関門はこんな感じかなと思います。
 
