@@ -78,6 +78,7 @@ $ cat /etc/logrotate.d/hoge
 ```
 
 # 自動アップデート
+自分のプログラムのことじゃなくて、`apt install`したやつとかのそれ。
 `unattended-upgrades`っての使っていい感じにする。
 途中はしょってるから、適当に検索プリーズ。
 
