@@ -2,7 +2,7 @@
 title: "TSyringe で DI Container と Singleton"
 emoji: "👻"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [typescript, tsyringe]
+topics: [typescript, tsyringe, di]
 published: true
 ---
 
