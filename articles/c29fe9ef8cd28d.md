@@ -1,5 +1,5 @@
 ---
-title: "Ollama () をMacで動かしてみる"
+title: "Ollama (Lllama2とかをローカルで動かすすごいやつ) をMacで動かしてみる"
 emoji: "🦙"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [llama, ollama, llm, mac, openai]
@@ -8,9 +8,12 @@ published: true
 
 # はじめに
 
-[Ollama](https://ollama.ai/) （Llama2 とかいろんなモデルをローカル環境で動かすツール）をすーごく簡単に使えたので、書くほどじゃないけどメモ。
+[Ollama](https://ollama.ai/) (Lllama2 とかをローカルで動かすすごいやつ) をすごく簡単に使えたのでメモ。
 使い方は github の README を見た。
 [jmorganca/ollama: Get up and running with Llama 2 and other large language models locally](https://github.com/jmorganca/ollama/tree/main)
+
+ちなみに、Ollama は LangChain にも組み込まれててローカルで動くしいい感じ。
+[ChatOllama | 🦜️🔗 Langchain](https://js.langchain.com/docs/integrations/chat/ollama)
 
 使えるモデルは今こんな感じ。
 ![](/images/2023-11-17-17-30-54.png)
