@@ -63,6 +63,7 @@ WebAssembly は、ブラウザで JavaScript 以外の言語を実行するた�
 
 # WebAssembly 利用の流れ
 
+![](/images/2024-11-06-21-35-44.png)
 ブラウザで動かす時と、専用ランタイムで動かす時とで、WebAssembly の利用方法が異なります。
 それぞれ、簡単に説明します。
 
