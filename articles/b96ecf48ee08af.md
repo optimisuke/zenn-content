@@ -2,7 +2,7 @@
 title: "これだけは知っとこう WebAssembly (wasm)"
 emoji: "🦀"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [webassembly, wasm]
+topics: [wasm]
 published: true
 ---
 
