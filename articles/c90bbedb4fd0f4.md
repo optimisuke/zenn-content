@@ -320,6 +320,12 @@ fn main() {
 
 https://github.com/optimisuke/hello-yew-todo/tree/main
 
+## API サーバー
+
+API サーバーも Rust で書いて試しました。以下の記事参照です。よくあるインターフェースだと思うので、OpenAPI でモックサーバーをたてても良いし、他の言語で作っても良いし、自由に準備してくれたらいいかと思います。おすすめは Rust の以下の記事です。
+
+https://zenn.dev/optimisuke/articles/947d5208db2b0e
+
 # 動かし方
 
 これでとりあえず動きます。
