@@ -16,6 +16,8 @@ WebAssembly (wasm) の情報って分散していて、全体像を掴むの難�
 
 # WebAssembly とは？
 
+![](/images/2024-11-06-21-02-35.png)
+
 WebAssembly は、ブラウザで JavaScript 以外の言語を実行するための仕様・環境です。と見せかけて、ブラウザ以外でも動きます。Node.js で動いたり、専用のランタイムで動いたり、Kubernetes 等のコンテナ環境で動いたりもします。なんでもありで、フロントエンドでも、バックエンドでも、ほぼほぼどこでも動きます。
 
 私の理解では、WebAssembly は、いろんな言語を動かせる高速でクロスプラットフォーム（ポータブル）でセキュアな仮想環境（サンドボックス）です。
@@ -23,6 +25,8 @@ WebAssembly は、ブラウザで JavaScript 以外の言語を実行するた�
 以下に示す特徴のため、ブラウザだけでなく様々な場所で使えるようになってきてます。エコシステムの成長速度が速いので、まだまだ情報がまとまってないのかなと思います。以下に、ざっくりまとめていきます。
 
 # WebAssembly の特徴
+
+![](/images/2024-11-06-21-08-55.png)
 
 まずは、いくつか特徴を挙げてみます。
 
@@ -33,15 +37,19 @@ WebAssembly は、ブラウザで JavaScript 以外の言語を実行するた�
 
 # WebAssembly vs
 
+![](/images/2024-11-06-21-09-27.png)
+
 他との違いにも触れてみます。
 理解できてない部分もありつつ、わかりやすさ重視で言い切ってます。詳細は、一次情報等参照です。
 
 - JavaScript: WebAssembly はコンパイルするので、JavaScript よりも高速です。
 - Java: Java は WebAssembly と同じく仮想環境で実行されますが、WebAssembly は多言語に対応しています。
-- コンテナ: WebAssembly は OS 側を意識しなくても動作するのでよりセキュアです。ただ、コンテナのエコシステムにも WebAssembly が組み込まれていってます。
-- アセンブリ: WebAssembly は OC 依存・CPU 依存がありません。
+- コンテナ: WebAssembly は OS 側を意識しなくても動作するのでよりセキュアです。
+- アセンブリ: WebAssembly は OS 依存・CPU 依存がありません。
 
 # WebAssembly の用語
+
+![](/images/2024-11-06-21-17-03.png)
 
 調べるときに、よく出てくる用語をメモしておきます。
 
@@ -79,6 +87,8 @@ Node.js ならブラウザと同様 JavaScript から読み込み実行。
 
 # WebAssembly のユースケース
 
+![](/images/2024-11-06-21-21-57.png)
+
 以下のようなユースケースがあります。ブラウザとブラウザ以外で整理しました。
 
 ## ブラウザ
@@ -96,14 +106,16 @@ Node.js ならブラウザと同様 JavaScript から読み込み実行。
 
 # WebAssembly の事例
 
+![](/images/2024-11-06-21-24-57.png)
+
 いくつか事例や実際に使えるサービスを紹介します。
 
 ## ブラウザ
 
-- Unity や Unreal Engine などのゲームエンジン
+- Unity / Unreal Engine
 - Figma
 - Google Earth
-- PDFyamada ブーわー
+- PDF Viewer
 - AutoCAD
 
 ## ブラウザ以外
