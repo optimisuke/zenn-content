@@ -211,7 +211,8 @@ https://www.amazon.co.jp/Rust%E3%81%A7%E5%AD%A6%E3%81%B6WebAssembly%E2%80%95%E2%
 
 ## Spin
 
-良いのあれば教えて欲しいです。
+サクッと試せました。
+https://zenn.dev/mi2valley/articles/1cd5efc05a5433
 
 ## ブラウザ
 
