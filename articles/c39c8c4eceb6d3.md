@@ -2,7 +2,7 @@
 title: "bolt.new でフルスタックtodoアプリ"
 emoji: "⚡️"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [bolt]
+topics: [bolt, boltnew]
 published: true
 ---
 
