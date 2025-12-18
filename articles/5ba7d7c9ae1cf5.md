@@ -10,6 +10,10 @@ published: true
 
 N 番煎じではありますが、OpenLLMetry を試してみたので共有です。
 ポイントは Trace, Metrics, Log の 3 つとも確認したところです。
+事前に自動計装（ゼロコード計装、Auto Instrumentation, Zero-code Instrumentation）を試していたのですが、今回は LLM アプリを SDK を使って明示的に観測してみることにしました。
+
+https://zenn.dev/optimisuke/articles/9784a79d795bb7
+https://zenn.dev/cepe_jp/articles/c07d75daba4e35
 
 # OpenLLMetry って何？
 
