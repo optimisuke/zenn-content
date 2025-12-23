@@ -10,7 +10,7 @@ published: true
 
 みなさん、uv 使ってますか？
 mcp サーバー使おうとすると uvx が多いし、気づいたら uv がデファクトスタンダードな雰囲気あって、真面目に整理するかーという気持ちでこの記事を書いてます。
-uv 以前は poetry とかあったけど、人によって好み違いそうだし、pyenv と venv 使うかーってなってましたが、最近は uv でいいかーという気持ちです。同じような気持ちの人に届け。
+uv 以前は poetry とかあったけど、そこまで広まってない感じもしました。人によって好み違いそうだし。なので、pyenv と venv 使うかーってなってましたが、最近は uv でいいかーという気持ちです。同じような気持ちの人に届け。
 
 まずですが、そもそも Python で開発してると以下のような場面がそこそこある気がします。
 
@@ -19,7 +19,7 @@ uv 以前は poetry とかあったけど、人によって好み違いそうだ
 - requirements.txt が最新じゃなくて動かない
 
 **uv** は、これらをなんとかしてくれます。
-この記事では **ユースケース** に uv の使い方と考え方を整理します。
+この記事では ユースケース毎に uv の使い方と考え方を整理していこうとおもいます。
 
 https://docs.astral.sh/uv/
 
@@ -35,14 +35,13 @@ pyproject.toml    # 意図・制約・設定
 uv.lock           # 依存関係の確定結果
 ```
 
-ちなみに、`.venv/` は生成物なので Git 管理しない
-`.python-version` と `uv.lock` は必ずコミット
+ちなみに、`.venv/` は生成物なので Git 管理しません。`pyproject.toml`だけでなく`.python-version` と `uv.lock` も必ずコミットしましょう。
 
 ---
 
 # ユースケース編
 
-## ユースケース ①：新規プロジェクトを作る（Python 一覧確認含む）
+## ユースケース ①：新規プロジェクトを作る
 
 ### やりたいこと
 
@@ -73,9 +72,9 @@ uv sync
 #### 何が起きているか
 
 - pin で`.python-version` が作られ、Python 3.12 が固定される
-- 必要なら uv が Python を自動ダウンロード
+- 必要に応じて uv が Python を自動ダウンロード
 - `pyproject.toml` が生成される
-- `.venv` が作られ、プロジェクトの環境での参照先になる
+- `.venv` が作られ、そのプロジェクト環境での参照先になる
 - `uv.lock` に結果が保存される
 
 👉 最初に pin するの大事！！
@@ -86,26 +85,26 @@ uv sync
 
 （Python が固定されていない場合を含む）
 
-### ケース A：`.python-version` がある（理想）
+### ケース A：`.python-version` があるときー（理想）
 
 ```
 uv sync
 ```
 
-- `.python-version` を読む
+- uv が`.python-version` を読む
 - Python がなければ自動でダウンロード
 - `.venv` 作成
 - `uv.lock` 通りに依存をインストール
 
 👉 README を読まなくても同じ環境が再現される
 
-### ケース B：`.python-version` がない（よくある事故）
+### ケース B：`.python-version` がないときー（よくある事故）
 
 ```
 uv sync
 ```
 
-- brew / pyenv / system python が使われる
+- PATH が通ってて最優先になってる Python (brew / pyenv / system python) が使われる
 - 人によって Python バージョンがズレる
 
 | 人  | 使われる Python |
@@ -113,10 +112,6 @@ uv sync
 | A   | brew 3.12       |
 | B   | pyenv 3.11      |
 | C   | system 3.10     |
-
-#### `.venv` の Python が brew 由来になることはある？
-
-**YES（pin していない場合）**
 
 👉 `.python-version` を置かないと事故る
 
@@ -158,22 +153,21 @@ proj-b/.python-version → 3.12
 - プロジェクトごとに Python / venv / lock が完全分離
 - pyenv の切り替え不要 (uv run python で実行するから)
 - PATH を汚さない
+- ミスが起きにくい
 
 ---
 
 ## ユースケース ⑤：AI Agent が pyproject.toml を書いた
 
-> AI は「提案」まで、確定は uv に任せる
-
 ### 推奨フロー
 
-1. AI の変更内容をレビュー
-2. 設定系（ruff / pyright / scripts 等）は反映 OK
-3. 依存が変わったら：
+AI の変更内容をレビュー
 
 ```
 uv sync
 ```
+
+動くか確認。
 
 ---
 
@@ -182,6 +176,7 @@ uv sync
 ## .venv は activate すべき？
 
 **しなくても OK**
+以下のコマンドで勝手に上手いことしてくれる。
 
 ```
 uv run python app.py
@@ -210,13 +205,10 @@ uv run pytest
 ### ruff
 
 - 超高速 linter / formatter（Rust 製）
-- flake8 + isort + black 相当
-- **コードの無駄・規約・整形**
 
 ### pyright
 
 - 静的型チェッカー
-- 実行前に型の破綻を検出
 
 ### pytest
 
@@ -265,6 +257,7 @@ uvx ruff check .
 ## 一言まとめ
 
 結構シンプル。venv と互換性保つため`.venv`を使ってるの好感持てる。
+皆さんも uv 使っていきましょー。
 
 ---
 
