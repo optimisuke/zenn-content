@@ -1,0 +1,61 @@
+name: Scheduled publish
+
+on:
+  schedule:
+    # 20:00 JST is 11:00 UTC.
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+    inputs:
+      source_branch:
+        description: Branch to merge into main
+        required: false
+        default: scheduled-publish
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scheduled-publish
+  cancel-in-progress: false
+
+env:
+  SOURCE_BRANCH: ${{ github.event.inputs.source_branch || 'scheduled-publish' }}
+  TARGET_BRANCH: main
+
+jobs:
+  merge-to-main:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TARGET_BRANCH }}
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure Git author
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Check source branch
+        id: source
+        run: |
+          if git ls-remote --exit-code --heads origin "${SOURCE_BRANCH}" >/dev/null; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+            echo "Source branch '${SOURCE_BRANCH}' does not exist. Nothing to publish."
+          fi
+
+      - name: Merge source branch into main
+        if: steps.source.outputs.exists == 'true'
+        run: |
+          git fetch origin "${SOURCE_BRANCH}:${SOURCE_BRANCH}"
+          git checkout "${TARGET_BRANCH}"
+          git merge --no-ff "${SOURCE_BRANCH}" -m "Publish scheduled content from ${SOURCE_BRANCH}"
+
+      - name: Push main
+        if: steps.source.outputs.exists == 'true'
+        run: git push origin "HEAD:${TARGET_BRANCH}"
