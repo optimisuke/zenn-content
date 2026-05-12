@@ -26,6 +26,59 @@ Zenn 記事を作るときは、技術的に正しいだけでなく、「自分
 
 必要なら対象記事と上記の記事を読み、文体と構成の距離を確認してから編集する。
 
+## 保存先
+
+どのフォルダからこの skill を使っていても、Zenn 記事は次のリポジトリに保存する。
+
+```text
+/Users/ito/Private/zenn-content
+```
+
+記事ファイルは `articles/` に置く。
+
+```text
+/Users/ito/Private/zenn-content/articles/<slug>.md
+```
+
+新規記事を作るときは、作業中のカレントディレクトリではなく、必ず上記リポジトリ配下に作成する。
+既存記事を編集するときも、まずこのリポジトリ内の `articles/` から対象ファイルを探す。
+
+frontmatter は Zenn の形式に合わせる。
+
+```yaml
+---
+title: "タイトル"
+emoji: "🧩"
+type: "tech" # tech: 技術記事 / idea: アイデア
+topics: ["topic"]
+published: false
+---
+```
+
+## 画像の置き方
+
+画像は `/Users/ito/Private/zenn-content/images/` に置く。
+既存記事には `images/` 直下に時刻ベースのファイルを置く運用もあるが、新しく記事を書くときは記事 slug ごとのフォルダを基本にする。
+
+```text
+/Users/ito/Private/zenn-content
+├── articles/
+│   └── <slug>.md
+└── images/
+    └── <slug>/
+        ├── header.png
+        ├── overview.png
+        └── screenshot-01.png
+```
+
+記事本文からは `/images/<slug>/<file>` の形で参照する。
+
+```markdown
+![](/images/<slug>/overview.png)
+```
+
+slug は記事ファイル名と揃える。たとえば `articles/abc123.md` の画像は `images/abc123/` に置く。
+
 ## 文体の特徴
 
 - まず自分の困りごと、違和感、めんどくささから入る
