@@ -13,7 +13,7 @@ Twitter で kmizu さんがカメラで Claude に視覚を持たせてる動画
 
 https://zenn.dev/nextbeat/articles/2026-02-embodied-claude
 
-使っているのは [embodied-claude](https://github.com/optimisuke/embodied-claude) というリポジトリで、カメラやマイクや声を MCP サーバー経由で Claude につなぐ仕組みです。カメラが届いてからしばらく積んでたんですが、ようやく動かせました。
+実際のコードも [embodied-claude](https://github.com/optimisuke/embodied-claude) というリポジトリにおいてくれていて、カメラを MCP サーバー経由で Claude につなぐ仕組みです。カメラが届いてからしばらく積んでたんですが、ようやく動かせました。
 
 動かしてみて、「自然言語でカメラを操作できる」より「Claude が目を持った」という感じがして、AIのパートナーっぽさがまた一段上がった気がしています。
 
