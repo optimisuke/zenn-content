@@ -1,5 +1,5 @@
 ---
-title: "積んでた Wi-Fi カメラで Claude にようやく視覚を持たせれた"
+title: "Claude Codeに「目」を与えてみた"
 emoji: "👁️"
 type: "tech"
 topics: ["claude", "mcp", "tapo", "onvif", "claudecode"]
