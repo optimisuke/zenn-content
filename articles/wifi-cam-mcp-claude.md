@@ -1,5 +1,5 @@
 ---
-title: "Claude Codeに「目」を与えてみた"
+title: "『Claude Codeに「身体」を与えてみた』を試してみた"
 emoji: "👁️"
 type: "tech"
 topics: ["claude", "mcp", "tapo", "onvif", "claudecode"]
