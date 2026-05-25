@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1300" height="820" viewBox="0 0 1300 820" role="img" aria-labelledby="title desc">
-  <title id="title">ええやん！.ai の Azure アーキテクチャ</title>
+  <title id="title">ええやん.ai! の Azure アーキテクチャ</title>
   <desc id="desc">Cloudflare でドメイン、DNS、WAF を担い、Next.js を Azure Container Apps で動かし、Azure OpenAI、PostgreSQL、Blob Storage、Application Insights、Stripe と連携する構成。</desc>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
