@@ -1,5 +1,5 @@
 ---
-title: "Claude Code縛りでAzureアプリをゼロから作った ― 福祉現場から生まれたAI仲介者アプリの実装記録"
+title: "AIに作品の感想を言わせたら、人と人の会話が増えた ― 福祉現場から生まれたAIアプリをAzureでリリースした話"
 emoji: "🎨"
 type: "tech"
 topics: ["azure", "nextjs", "claudecode", "openai", "prisma"]
