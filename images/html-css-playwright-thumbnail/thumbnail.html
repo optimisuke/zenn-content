@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>thumbnail</title>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800;900&family=Noto+Sans+JP:wght@700;900&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1280px; height: 720px; overflow: hidden; }
+  body {
+    font-family: "M PLUS Rounded 1c", "Noto Sans JP", sans-serif;
+    position: relative;
+    background: #fff;
+    color: #1f2937;
+  }
+
+  /* 左側: 評価画面のキャプチャ（左半分だけ表示） */
+  .bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 720px;
+    height: 100%;
+    background-image: url('しっぽが先に元気なねこ-05-26-2026_12_24_AM.png');
+    background-size: 1280px auto;
+    background-position: left top;
+    filter: brightness(1.02);
+  }
+  /* 左の絵にもうちょっと明るさと縁を */
+  .bg::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 120px;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, #fff 100%);
+  }
+
+  /* 右側: 文字エリア */
+  .right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 660px;
+    height: 100%;
+    padding: 70px 50px 50px 30px;
+    background: linear-gradient(135deg, #f0f7ff 0%, #ffffff 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .tag {
+    display: inline-block;
+    align-self: flex-start;
+    background: #3386e7;
+    color: #fff;
+    padding: 8px 24px;
+    border-radius: 100px;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    margin-bottom: 28px;
+    box-shadow: 0 6px 14px rgba(51,134,231,0.35);
+  }
+
+  .hook-main {
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 1.15;
+    color: #111827;
+    letter-spacing: -0.02em;
+    margin-bottom: 26px;
+  }
+  .hook-main .accent {
+    color: #3386e7;
+    position: relative;
+    display: inline-block;
+  }
+  .hook-main .accent::after {
+    content: '';
+    position: absolute;
+    left: 0; right: 0; bottom: 6px;
+    height: 14px;
+    background: #ffd54f;
+    border-radius: 4px;
+    z-index: -1;
+  }
+
+  .hook-sub {
+    font-size: 34px;
+    font-weight: 800;
+    color: #4b5563;
+    line-height: 1.5;
+  }
+  .hook-sub .em {
+    background: #1f2937;
+    color: #fff;
+    padding: 4px 16px;
+    border-radius: 10px;
+    margin: 0 4px;
+    font-weight: 900;
+  }
+
+  /* 左上の吹き出し（キャラアイコンと被らない位置） */
+  .bubble {
+    position: absolute;
+    left: 30px;
+    top: 90px;
+    background: #ffeb3b;
+    color: #1f2937;
+    padding: 14px 28px;
+    border-radius: 24px;
+    font-size: 30px;
+    font-weight: 900;
+    transform: rotate(-3deg);
+    box-shadow: 0 8px 0 #fbc02d, 0 14px 24px rgba(0,0,0,0.18);
+    z-index: 5;
+  }
+  .bubble::after {
+    content: '';
+    position: absolute;
+    bottom: -16px;
+    left: 70px;
+    border: 14px solid transparent;
+    border-top-color: #ffeb3b;
+  }
+
+  /* ロゴ（右上） */
+  .logo {
+    position: absolute;
+    top: 24px;
+    right: 30px;
+    background: #fff;
+    color: #1f2937;
+    padding: 10px 24px;
+    border-radius: 100px;
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    z-index: 10;
+  }
+  .logo .accent { color: #3386e7; }
+  .logo .by { font-size: 16px; font-weight: 800; color: #6b7280; margin-left: 8px; }
+</style>
+</head>
+<body>
+  <div class="bg"></div>
+
+  <div class="bubble">この絵、なんて声かける？</div>
+
+  <div class="right">
+    <span class="tag">DEMO &amp; 紹介</span>
+    <div class="hook-main">
+      <span class="accent">「いいねぇ」</span><br>
+      以上の言葉を、<br>
+      AIがくれる。
+    </div>
+    <div class="hook-sub">
+      <span class="em">3人のAIキャラ</span>が、<br>
+      作品を語る。
+    </div>
+  </div>
+
+  <div class="logo">ええやん！<span class="accent">.ai</span><span class="by">by テックルズ</span></div>
+</body>
+</html>
