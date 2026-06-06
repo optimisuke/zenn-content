@@ -162,6 +162,5 @@ https://github.com/optimisuke/perfectcorp-mcp
 # 参考
 
 - [Perfect Corp API Docs](https://docs.perfectcorp.com/reference/ai_skin_analysis)
-- [imagesnap](https://github.com/rharder/imagesnap)
 - [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)
 - [perfectcorp-mcp（今回のリポジトリ）](https://github.com/optimisuke/perfectcorp-mcp)
