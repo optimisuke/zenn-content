@@ -1,5 +1,5 @@
 ---
-title: "Claude x YouCam API に「肌分析して」と頼んだら肌年齢50歳と言われた👼"
+title: "「肌分析して」と頼んだら肌年齢50歳と言われた👼  by Claude x YouCam API"
 emoji: "🪞"
 type: "tech"
 topics: ["claude", "mcp", "claudecode", "youcam", "python"]
